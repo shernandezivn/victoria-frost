@@ -14,8 +14,8 @@ const routerOptions: ExtraOptions = {
 
 
 const routes: Routes = [
-  // {path:"inicio", component: IndexComponent, canActivate: [CanAccessGuard]},
-  // {path:"home", component:HomeComponent , canActivate: [CanAccessGuard]},
+  {path:"inicio", component: IndexComponent, canActivate: [CanAccessGuard]},
+  {path:"home", component:HomeComponent , canActivate: [CanAccessGuard]},
   {path:"inicio", component: IndexComponent},
   {path:"home", component:HomeComponent},
   {path: "", redirectTo: "/inicio", pathMatch: 'full' },
